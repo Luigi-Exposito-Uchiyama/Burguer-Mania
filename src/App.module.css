@@ -39,6 +39,6 @@ body::-webkit-scrollbar-thumb {
   border-radius: 5px;
 }
 
-body::-webkit-scrollbar-track {
+body::-webkit-scrollbar-track { 
   background: transparent;
 }
