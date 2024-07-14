@@ -27,7 +27,7 @@ ul {
 
 @font-face {
   font-family: 'Poppins'; 
-  src: url('./Assets/Fonts/Poppins-Regular.ttf') format('truetype'); 
+  src: url('./fonts/Poppins-Regular.ttf') format('truetype'); 
 }
 
 body::-webkit-scrollbar {
