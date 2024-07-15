@@ -180,3 +180,48 @@
 .newRequest:hover {
   background-color: #e09c00;
 }
+
+
+@media (max-width: 600px) {
+  .cartItemImage {
+    display: none;
+  }
+
+  .cartItem {
+    font-size: 14px;
+  }
+
+  .contentCart {
+    font-size: 14px;
+  }
+
+  .final {
+    font-size: 14px;
+  }
+
+  .cart {
+    grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr;
+    max-width: 400px;
+  }
+
+  .img {
+    display: none;
+  }
+
+  .sidebar {
+    width: 400px;
+  }
+
+  .cartItem {
+    grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr;
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 550px) {
+  .menu {
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}

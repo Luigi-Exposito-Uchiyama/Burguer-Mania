@@ -92,7 +92,7 @@ const Sidebar = ({ onClose, isOpen, cart, setCart }) => {
       ) : (
         <div className={styles.contentCart}>
           <div className={styles.cart}>
-            <p></p>
+            <p className={styles.img}></p>
             <p>PRODUTO</p>
             <p>PREÇO</p>
             <p>QT</p>
